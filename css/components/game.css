@@ -1,0 +1,83 @@
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 92%;
+    padding: 0px 40px 40px 40px;
+}
+
+.game-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px;
+}
+
+.game-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border: 3px solid var(--content-border);
+    border-radius: 20px;
+    background-color: var(--content-background);
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.game-list__title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.game-list__img {
+    position: relative;
+    margin-top: 40px;
+}
+
+.game-list__img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15%;
+}
+
+.game-list__img span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    width: 100px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.game-list__img > span > i {
+    font-size: 12px;
+    color: var(--star);
+}
+
+.game-list__info {
+    display: block;
+    width: 230px;
+    margin-top: 40px;
+}
+
+.game-list__info span {
+    font-size: 20px;
+}
+
+.game-list__link {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

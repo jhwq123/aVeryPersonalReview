@@ -1,0 +1,13 @@
+:root {
+    --star: #fae100;
+    --bg-color: #ffeaa7;
+    --nav-border: black;
+    --nav-background: white;
+    --nav-font: black;
+    --title: black;
+    --title-border: black;
+    --title-background: white;
+    --title-font: black;
+    --content-border: rgba(0, 0, 0, 0.7);
+    --content-background: rgba(0, 0, 0, 0.7);
+}

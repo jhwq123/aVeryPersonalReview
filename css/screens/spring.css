@@ -1,0 +1,46 @@
+.bg-spring {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bg-spring__ring {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.bg-spring__ring-small {
+    position: absolute;
+    left: 32px;
+    top: 18px;
+    width: 20px;
+    height: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    z-index: 97;
+}
+
+.bg-spring__ring-big {
+    position: absolute;
+    left: -20px;
+    width: 50px;
+    height: 40px;
+    border: 9px solid black;
+    border-radius: 50%;
+    z-index: 98;
+}
+
+.bg-spring__ring-inv {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    width: 50px;
+    height: 28px;
+    background-color: var(--bg-color);
+    z-index: 99;
+}

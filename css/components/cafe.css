@@ -1,0 +1,83 @@
+.cafe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 92%;
+    padding: 0px 40px 40px 40px;
+}
+
+.cafe-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px;
+}
+
+.cafe-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border: 3px solid var(--content-border);
+    border-radius: 20px;
+    background-color: var(--content-background);
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.cafe-list__title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cafe-list__img {
+    position: relative;
+    margin-top: 40px;
+}
+
+.cafe-list__img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15%;
+}
+
+.cafe-list__img span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    width: 100px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.cafe-list__img > span > i {
+    font-size: 12px;
+    color: var(--star);
+}
+
+.cafe-list__info {
+    display: block;
+    width: 230px;
+    margin-top: 40px;
+}
+
+.cafe-list__info span {
+    font-size: 20px;
+}
+
+.cafe-list__link {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

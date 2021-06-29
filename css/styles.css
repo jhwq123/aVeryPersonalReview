@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+@import "reset.css";
+@import "variables-wood.css";
+
+/* screens */
+@import "screens/spring.css";
+@import "screens/title.css";
+@import "screens/nav-bar.css";
+@import "screens/empty.css";
+
+/* components */
+@import "components/tour.css";
+@import "components/food.css";
+@import "components/game.css";
+@import "components/cafe.css";
+@import "components/tourCon.css";
+
+
+body {
+    align-items: center;
+    background-color: gray;
+    width: 100vw;
+    height: 2000px;
+}
+
+h1 {
+    color: var(--title);
+}
+
+h2 {
+    color: var(--title);
+    font-size: 40px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+    width: 93%;
+    height: 1850px;
+    background-color: var(--bg-color);
+    margin: 50px;
+}
+
+.main-box__content {
+    width: 95%;
+}
+
+.main-box__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}

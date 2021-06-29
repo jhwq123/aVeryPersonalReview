@@ -1,0 +1,28 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin: 40px 0px;
+    margin-left: 20px;
+    padding: 0px 20px;
+}
+
+.nav-bar img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid var(--nav-border);
+    border-radius: 50%;
+    background-color: var(--nav-background);
+    padding: 5px;
+}
+
+.nav-bar__back i {
+    color: var(--nav-font);
+}
+
+.nav-bar__back span {
+    color: var(--nav-font);
+    font-size: 30px;
+}

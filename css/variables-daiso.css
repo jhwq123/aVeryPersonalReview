@@ -1,0 +1,13 @@
+:root {
+    --star: red;
+    --bg-color: white;
+    --nav-border: red;
+    --nav-background: white;
+    --nav-font: red;
+    --title: red;
+    --title-border: red;
+    --title-background: red;
+    --title-font: white;
+    --content-border: rgba(250, 0, 0, 0.7);
+    --content-background: rgba(200, 200, 200, 0.7);
+}
